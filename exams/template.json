@@ -1,0 +1,45 @@
+{
+  "id": "specialist-2022-exam1-tf",
+  "title": "Specialist Mathematics Exam 1 (Tech-Free)",
+  "subject": "Specialist Mathematics",
+  "year": 2022,
+  "type": "Tech-Free",
+  "source": "Where you got it from",
+  "readingMin": 15,
+  "writingMin": 120,
+  "instructions": "Optional text shown before the exam starts.",
+  "questions": [
+    {
+      "number": 1,
+      "topic": "Complex numbers",
+      "text": "Stem of the question. Use $LaTeX$ for maths.",
+      "parts": [
+        {
+          "label": "a",
+          "marks": 2,
+          "text": "Part text.",
+          "answer": "Final answer shown when checked",
+          "accept": ["optional", "strings", "that auto-mark as correct"],
+          "solution": "Worked solution. Supports $$display maths$$ and **bold**."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "topic": "Calculus",
+      "marks": 3,
+      "text": "A question with no parts — put marks/answer/solution directly on it.",
+      "answer": "42",
+      "accept": ["42"],
+      "solution": "Because..."
+    },
+    {
+      "number": 3,
+      "topic": "Vectors",
+      "text": "A multiple-choice question (answer is the 0-based index, or a letter A-D).",
+      "options": ["one", "two", "three", "four"],
+      "answer": 2,
+      "solution": "Because..."
+    }
+  ]
+}
